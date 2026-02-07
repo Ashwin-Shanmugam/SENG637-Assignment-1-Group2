@@ -5,8 +5,6 @@
 >   Department of Electrical and Software Engineering
 >   University of Calgary
 
-Due Date: Check D2L for the submission deadline.
-
 | Group: 2 |
 |---|
 | Ashwin |
