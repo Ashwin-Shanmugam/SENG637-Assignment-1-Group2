@@ -112,7 +112,7 @@ During regression testing, previously reported defects from both exploratory and
 
 We logged a total of **14 defects** out of which **3** were resolved in version 1.1.
 
-Remaining **9 defects** still exist in version 1.1.
+Remaining **11 defects** still exist in version 1.1.
 
 # Notes and discussion of the peer reviews of defect reports
 
