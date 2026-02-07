@@ -96,7 +96,7 @@ Manual scripted testing was performed using Appendix C. This approach was effect
 - repeatability, since steps and expected results are predefined,
 - easier identification of exact requirement mismatches.
 
-In our execution, **35 test cases** were run, covering authentication and invalid input handling, withdrawals and cancellation scenarios, deposit flows (including envelope handling), transfers and edge cases, inquiry transactions, and PIN retry behavior. Most test cases passed; a small subset exposed defects related to validation logic, error messaging, and transaction cancellation behavior.
+In our execution, **40 test cases** were run, covering authentication and invalid input handling, withdrawals and cancellation scenarios, deposit flows (including envelope handling), transfers and edge cases, inquiry transactions, and PIN retry behavior. Most test cases passed; a small subset exposed defects related to validation logic, error messaging, and transaction cancellation behavior.
 
 Its limitations are that it can miss defects in flows not represented in the scripted suite, and it may not reveal usability or edge-case issues unless those are explicitly encoded in test cases.
 
@@ -111,6 +111,10 @@ Exploratory testing helped identify where the system might behave unexpectedly a
 ## Regression Testing Results and Observations
 
 During regression testing, previously reported defects from both exploratory and manual script testing in version 1.0 were re-executed against ATM version 1.1. Each defect was reviewed to determine whether the issue was resolved or persisted. Defects confirmed as fixed were marked as RESOLVED, while those still reproducible were marked as IN-PROGRESS with a comment “Defect still exists in version 1.1”.
+
+We logged a total of **14 defects** out of which **3** were resolved in version 1.1.
+
+Remaining **9 defects** still exist in version 1.1.
 
 # Notes and discussion of the peer reviews of defect reports
 
